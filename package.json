@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "tsc"
   },
+  "types": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mjgil/immutableJsPlaground.git"
@@ -17,10 +19,14 @@
   },
   "homepage": "https://github.com/mjgil/immutableJsPlaground#readme",
   "dependencies": {
+    "@types/lodash": "^4.14.36",
+    "@types/node": "^6.0.41",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "chai": "^3.5.0",
     "chai-immutable": "^1.6.0",
+    "flow-bin": "^0.32.0",
     "immutable": "^3.8.1",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "typescript": "^2.0.3"
   }
 }
