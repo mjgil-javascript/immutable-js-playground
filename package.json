@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mjgil/immutableJsPlaground#readme",
   "dependencies": {
+    "@types/immutable": "^3.8.4",
     "@types/lodash": "^4.14.36",
     "@types/node": "^6.0.41",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
@@ -26,6 +27,7 @@
     "chai-immutable": "^1.6.0",
     "flow-bin": "^0.32.0",
     "immutable": "^3.8.1",
+    "linked-map": "git+ssh://git@github.com/IdeaFlowCo/LinkedMap.git",
     "mocha": "^2.5.3",
     "typescript": "^2.0.3"
   }
