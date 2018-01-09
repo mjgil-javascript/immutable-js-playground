@@ -1,4 +1,4 @@
-# immutableJsPlaground
+# ImmutableJs Playground
 
 Use with node 6.0 or greater
 
