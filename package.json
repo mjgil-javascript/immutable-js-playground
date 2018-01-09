@@ -5,29 +5,31 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build": "tsc"
+    "build": "tsc",
+    "babel": "babel-node"
   },
   "types": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjgil/immutableJsPlaground.git"
+    "url": "git+https://github.com/mjgil-javascript/immutable-js-playground.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mjgil/immutableJsPlaground/issues"
+    "url": "https://github.com/mjgil-javascript/immutable-js-playground/issues"
   },
-  "homepage": "https://github.com/mjgil/immutableJsPlaground#readme",
+  "homepage": "https://github.com/mjgil-javascript/immutable-js-playground#readme",
   "dependencies": {
     "@types/immutable": "^3.8.4",
     "@types/lodash": "^4.14.36",
     "@types/node": "^6.0.41",
+    "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "chai": "^3.5.0",
     "chai-immutable": "^1.6.0",
     "flow-bin": "^0.32.0",
     "immutable": "^3.8.1",
-    "linked-map": "git+ssh://git@github.com/IdeaFlowCo/LinkedMap.git",
+    "linked-map": "git+ssh://git@github.com/mjgil-javascript/ImmutableLinkedMap.git",
     "mocha": "^2.5.3",
     "typescript": "^2.0.3"
   }
